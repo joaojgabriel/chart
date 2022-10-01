@@ -572,20 +572,12 @@ video {
   margin-bottom: 0px;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
-}
-
-.h-5 {
-  height: 1.25rem;
 }
 
 .min-h-screen {
@@ -600,22 +592,12 @@ video {
   max-width: 32rem;
 }
 
-.border-spacing-1 {
-  --tw-border-spacing-x: 0.25rem;
-  --tw-border-spacing-y: 0.25rem;
-  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
-}
-
 .flex-col {
   flex-direction: column;
 }
 
 .place-items-center {
   place-items: center;
-}
-
-.items-end {
-  align-items: flex-end;
 }
 
 .justify-end {
@@ -640,28 +622,6 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.border {
-  border-width: 1px;
-}
-
-.border-4 {
-  border-width: 4px;
-}
-
-.border-solid {
-  border-style: solid;
-}
-
-.border-cyan {
-  --tw-border-opacity: 1;
-  border-color: hsl(186 34% 60% / var(--tw-border-opacity));
-}
-
-.border-cream {
-  --tw-border-opacity: 1;
-  border-color: hsl(27 66% 92% / var(--tw-border-opacity));
 }
 
 .bg-cream {
@@ -689,10 +649,6 @@ video {
 
 .text-right {
   text-align: right;
-}
-
-.align-bottom {
-  vertical-align: bottom;
 }
 
 .font-dm-sans {
@@ -734,16 +690,6 @@ video {
   display: block;
 }
 
-.after\:w-11\/12::after {
-  content: var(--tw-content);
-  width: 91.666667%;
-}
-
-.after\:border-2::after {
-  content: var(--tw-content);
-  border-width: 2px;
-}
-
 .after\:border-\[0\.5px\]::after {
   content: var(--tw-content);
   border-width: 0.5px;
@@ -754,48 +700,15 @@ video {
   border-style: solid;
 }
 
-.after\:border-soft-red::after {
-  content: var(--tw-content);
-  --tw-border-opacity: 1;
-  border-color: hsl(10 79% 65% / var(--tw-border-opacity));
-}
-
 .after\:border-cream::after {
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: hsl(27 66% 92% / var(--tw-border-opacity));
 }
 
-.after\:border-md-brown::after {
-  content: var(--tw-content);
-  --tw-border-opacity: 1;
-  border-color: hsl(28 10% 53% / var(--tw-border-opacity));
-}
-
-.after\:border-opacity-75::after {
-  content: var(--tw-content);
-  --tw-border-opacity: 0.75;
-}
-
 .after\:border-opacity-80::after {
   content: var(--tw-content);
   --tw-border-opacity: 0.8;
-}
-
-.after\:border-opacity-90::after {
-  content: var(--tw-content);
-  --tw-border-opacity: 0.9;
-}
-
-.after\:px-4::after {
-  content: var(--tw-content);
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.after\:content-\[\'_\'\]::after {
-  --tw-content: ' ';
-  content: var(--tw-content);
 }
 
 .after\:content-\[\'\'\]::after {
