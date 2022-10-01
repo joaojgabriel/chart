@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "chart.js": "^3.9.1",
+    "fetch": "^1.1.0",
+    "request": "^2.88.2"
+  },
+  "name": "expenses-chart-component-main",
+  "description": "![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

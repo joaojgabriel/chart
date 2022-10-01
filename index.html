@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./main.js" type="module" defer></script>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-cream">
+    <main class="font-dm-sans min-h-screen grid place-items-center mx-4">
+      <div id="wrapper" class="w-full max-w-lg space-y-4">
+        <article class="bg-soft-red w-full rounded-xl flex justify-between p-6">
+          <div class="space-y-2 text-pale-orange">
+            <div>My balance</div>
+            <div class="text-2xl font-bold">$921.48</div>
+          </div>
+          <img src="/images/logo.svg" alt="" />
+        </article>
+        <section class="bg-pale-orange rounded-xl w-full">
+          <article class="text-center">
+            <h1 class="text-d-brown text-2xl p-6 font-bold">
+              Spending - Last 7 days
+            </h1>
+            <div class="m-4">
+              <canvas id="expenses" height="100" width="160"></canvas>
+            </div>
+          </article>
+          <div
+            class="after:content-[''] after:block after:border- after:border-solid after:mx-4 after:border-[0.5px] after:border-cream after:border-opacity-80"
+          ></div>
+          <div class="flex p-6 justify-between">
+            <div>
+              <div>Total this month</div>
+              <div class="text-d-brown font-bold text-3xl">$478.33</div>
+            </div>
+            <div class="flex flex-col text-right mb-0 justify-end">
+              <div class="text-d-brown font-bold">+2.4%</div>
+              <div>from last month</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution absolute top-full">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">joaojgabriel</a>.
+      </div>
+    </footer>
+  </body>
+</html>
