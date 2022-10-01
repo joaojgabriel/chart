@@ -1,6 +1,6 @@
 const getPercentage = (min, num, max) => (num - min) / (max - min);
 
-fetch("/data.json")
+fetch("./data.json")
   .then((res) => res.json())
   .then((json) => init(json));
 
